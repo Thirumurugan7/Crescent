@@ -127,6 +127,8 @@ path("edi_edit",views.EDI_edit),
 path("event_form",views.event_form),
 path("samridth",views.samridth),
 path("newsamridth",views.newsamridth),
+path("fisheries",views.fisheries),
+path("samridth_edit",views.samridth_edit),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,

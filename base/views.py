@@ -604,3 +604,9 @@ def event_form(request):
 
 def newsamridth (request):
     return render(request,"newsamridth.html")
+
+def fisheries (request):
+    return render(request,"fisheries.html")
+
+def samridth_edit (request):
+    return render(request,"pages/samridth_edit.html")

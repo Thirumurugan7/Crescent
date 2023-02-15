@@ -15,6 +15,17 @@
   <link rel="stylesheet" href="{% static 'assets/css/plugins.css' %}" />
   <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" />
  <link href="{% static 'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css' %}" rel="stylesheet">
+ <style>
+  #feedback{
+    width: auto;
+    position: fixed;
+    bottom: 25%;
+    z-index: 999;
+    left: -75px !important;
+    transform: rotate(270deg);
+    transition: .5s;
+  }
+ </style>
 </head>
 <body>
   <div class="content-wrapper">
@@ -590,6 +601,8 @@
       <!-- /.container -->
     </section>
    
+    <div id="feedback"> <a href="https://www.ciic.ventures/wp-content/uploads/2022/02/113-CIIC-Startups-Compendium-compressed.pdf" target="_blank" class=""><span>Download Startups</span><i class="fa fa-download" aria-hidden="true"></i></a></div>
+
     <!-- /section -->
 
     <section id="snippet-2" class="wrapper bg-light wrapper-border">
