@@ -601,3 +601,6 @@ def EDI_edit(request):
 
 def event_form(request):
     return render(request,"events_form.html")
+
+def newsamridth (request):
+    return render(request,"newsamridth.html")
